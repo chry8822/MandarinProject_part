@@ -1,0 +1,101 @@
+/* home_feed css */
+.conts {
+    width: 100%;
+}
+.conts-feed {
+    padding: 0px 16px 20px 16px;
+
+/* header */
+}
+.feed-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-img-wrap {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.feed-profile-img {
+    width: 42px;
+    height: 42px;
+    margin-right: 12px;
+}
+.feed-title h3 {
+    font-size: 14px;
+    font-weight: 500;
+    /* margin-bottom: 2px; */
+}
+.feed-profile-id {
+    font-size: 12px;
+    color: var(--grayfont);
+    line-height: 10px;
+}
+.feed-more-btn {
+    position: relative;
+}
+.more-img {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 4px;
+    right: 0px;
+}
+
+/* feed content*/
+.feed-cont {
+    padding-left: 54px;
+    margin-bottom: 12px;
+
+}
+.feed-text {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.feed-img-link {
+    width: 100%;
+    height: 100%;
+}
+.feed-img {
+    border-radius: 10px;
+
+/* feed footer */
+}
+.cont-footer {
+    padding-left: 54px;
+}
+.feed-btn-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.feed-btn-wrap button {
+   float: left;
+}
+.reply-btn {
+    margin-left: 37px;
+}
+.feed-btn-wrap button img{
+    width: 20px;
+    height: 20px;
+}
+.like-count, .reply-count {
+    position: absolute;
+    font-size: 12px;
+    color: var(--grayfont);
+}
+.like-count {
+    left: 26px;
+}
+.reply-count{
+    left: 83px;
+}
+.feed-date {
+    font-size: 10px;
+    color: var(--grayfont);
+}
